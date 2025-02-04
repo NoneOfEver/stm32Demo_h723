@@ -231,7 +231,7 @@ static uint32_t ger_sector(uint32_t address)
     //     sector = FLASH_SECTOR_11;
     // }
 
-    return sector;
+    return sector; 
 }
 
 /**
@@ -297,5 +297,4 @@ uint32_t get_next_flash_address(uint32_t address)
         sector = FLASH_END_ADDR;
     }
     return sector;
-}
-                                                                      
+} 

@@ -3,9 +3,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build task",
+            "label": "build in Debug mode",
             "type": "shell",
-            "command": "mingw32-make -j24",
+            "command": "cmake --build build/Debug",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
