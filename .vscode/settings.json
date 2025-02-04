@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "freertos.h": "c",
+        "portable.h": "c",
+        "memory.h": "c",
+        "bsp_uart.h": "c",
+        "stdlib.h": "c",
+        "bsp_can.h": "c",
+        "fdcan.h": "c",
+        "bsp_dwt.h": "c",
+        "bsp_log.h": "c",
+        "cmsis_os.h": "c"
+    }
+}
